@@ -2,20 +2,48 @@
 <html>
 <head>
   <style>
-a { color:DarkBlue;
+.kingbadne
+    { color:Darkblue;
     font-family: verdana;
-    }
+    text-decoration: none;
+        }
+h1{
+   font-size:45px;
+   text-align: center;
+   border-bottom: 1px solid black;
+   margin: 0px;
+   font-family: verdana;
+   padding: 10px 0px 15px 0px;
+  }
+ul{
+  width:90px;
+  border-right: 1px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+#bbackbbackee {
+  margin: 0px 0px 0px 1px;
+
+}
   </style>
 <title>MWS1-CSS</title>
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
-  <ul>
-    <li> <a href="1.html">HTML </a></li>
-    <li> <a href="2.html">CSS</a> </li>
-    <li> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">JavaScript</a> </li>
-  </ul>
-  <h2><p style="color: indigo; font-size: 40px;"> What is CSS? </p> </h2>
-  <p style="font-size:25px;font-family: verdana">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is deisigned to enable the separation of presentation and content, including layout, colours, and fonts.</p> <p style="font-size:25px;font-family: verdana;">This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate. Css file, and reduce complexity and repitition in the structural content</p>
+  <a href="index.html" style="text-decoration:none;"><h1>WEB</h1></a>
+  <div id="grid">
+      <ul>
+        <li> <a href="1.html" class="kingbadne">HTML </a></li>
+        <li> <a href="2.html" class="kingbadne">CSS</a> </li>
+        <li> <a href="3.html" class="kingbadne">JavaScript</a> </li>
+      </ul>
+      <div id="bbackbbackee">
+          <h2><p style="color: indigo; font-size: 40px; margin: 0px;"> What is CSS? </p> </h2>
+          <p style="font-size:25px;font-family: verdana"> <a href="https://www.w3schools.com/css/">Cascading Style Sheets</a> (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is deisigned to enable the separation of presentation and content, including layout, colours, and fonts.</p> <p style="font-size:25px;font-family: verdana;">This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate. Css file, and reduce complexity and repitition in the structural content</p>
+      </div>
+  </div>
 </body>
 </html>
