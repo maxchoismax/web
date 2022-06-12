@@ -21,15 +21,25 @@ ul{
   margin: 0px;
   padding: 10px;
 }
-#grid {
+  #grid {
   display: grid;
   grid-template-columns: 1fr 10fr;
-}
+  }
 #bbackbbackee {
   margin: 0px 0px 0px 1px;
-
 }
-  </style>
+    @media (max-width: 1000px)  {
+          #grid{
+            display: block;
+          }
+            #grid ul{
+            border-right: none;
+          }
+            h1{
+            border-bottom: none;
+          }
+}
+</style>
 <title>MWS1-CSS</title>
 </head>
 <body>
